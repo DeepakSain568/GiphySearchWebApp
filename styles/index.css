@@ -1,0 +1,157 @@
+.container {
+  max-width: 800px;
+  margin: auto; /* Center horizontally */
+  padding: 20px;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 100vh; 
+  justify-content: center; 
+}
+
+        header {
+          text-align: center;
+        }
+
+        h1 {
+          color: #333;
+        }
+
+     
+
+        .auth-button {
+          padding: 10px;
+          margin: 10px 0;
+          font-size: 16px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          background-color: #3498db;
+          color: #fff;
+          transition: background-color 0.3s;
+        }
+
+        .auth-button:hover {
+          background-color: #2980b9;
+        }
+
+        .auth-button.google {
+          background-color: #dd4b39;
+        }
+
+        .welcome-message {
+          text-align: center;
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        .search-container {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 20px;
+        }
+
+        .search-input {
+          flex: 1;
+          padding: 10px;
+          font-size: 16px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+
+        .search-button {
+          padding: 10px;
+          font-size: 16px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          background-color: #3498db;
+          color: #fff;
+          transition: background-color 0.3s;
+        }
+
+        .search-button:hover {
+          background-color: #2980b9;
+        }
+
+        .gifs-container {
+          overflow: hidden;
+        }
+
+        .gifs-inner-container {
+          display: flex;
+          overflow-x: auto;
+          overflow-y: hidden;
+        }
+
+        .gif-item {
+          flex: 0 0 auto;
+          width: 150px;
+          margin-right: 1rem;
+          position: relative;
+        }
+
+        .gif-image {
+          max-width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+
+        .gif-index {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 5px;
+          border-radius: 5px;
+          font-size: 12px;
+        }
+
+        .pagination-buttons {
+          display: flex;
+          justify-content: center;
+          margin-top: 1rem;
+        }
+
+        .pagination-buttons button {
+          padding: 0.5rem 1rem;
+          cursor: pointer;
+          margin: 0 5px;
+          background-color: #3498db;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          outline: none;
+          transition: background-color 0.3s;
+        }
+
+        .pagination-buttons button.active {
+          background-color: #2980b9;
+        }
+
+        .pagination-buttons button:hover {
+          background-color: #2980b9;
+        }
+
+        .loading-spinner {
+          border: 6px solid #f3f3f3;
+          border-top: 6px solid #3498db;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          animation: spin 1s linear infinite;
+        }
+          .spacer{
+            height: 16px;
+          }
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
