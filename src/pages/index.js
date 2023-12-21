@@ -7,8 +7,8 @@ import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import auth from '../lib/firebase';
 import { searchGifs } from '../lib/giphy';
 import SignInAndSignUpButton from '../lib/components/buttons';
-import '../../styles/styles.css';
-import '../../styles/index.css';
+import '../../pages/styles/styles.css';
+import '../../pages/styles/styles/index.css';
 
 export default function Home() {
   const [user] = useAuthState(auth);

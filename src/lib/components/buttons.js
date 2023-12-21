@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import '../../../styles/button.css';
+import '../../pages/styles/button.css';
 
 
 

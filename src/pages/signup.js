@@ -3,7 +3,7 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import auth from '../lib/firebase';
 import { useRouter } from 'next/router';
 import SignInAndSignUpButton from '../lib/components/buttons';
-import '../../styles/authentication.css';
+import '../../pages/styles/authentication.css';
 
 
 export default function SignUp() {
